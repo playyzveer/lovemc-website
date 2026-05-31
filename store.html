@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="LOVE MC - India's Best Survival Minecraft Server">
+
+    <title>LOVE MC</title>
+
+    <link rel="icon" href="logo.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="floating-buttons">
+
+    <a href="rewards.html" class="float-btn reward-float">
+        🎁 Rewards
+    </a>
+
+    <a href="https://discord.gg/GFfasXkh8E" target="_blank" class="float-btn discord-float">
+        💬 Discord
+    </a>
+
+</div>
+<body>
+
+  <div class="overlay"></div>
+  <div class="hearts"></div>
+
+  <nav>
+    <div class="logo">💖 LOVE MC</div>
+
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="store.html" class="active">Store</a>
+      <a href="rewards.html">Rewards</a>
+      <a href="rules.html">Rules</a>
+      <a href="staff.html">Staff</a>
+    </div>
+  </nav>
+
+  <section class="store-hero">
+    <img src="store.png"
+         alt="LOVE MC Store"
+         class="store-banner">
+    <h2>Ranks • Keys • Money • Claim Blocks</h2>
+    <p>Buy items through Discord tickets. Send username + payment screenshot.</p>
+
+    <a href="https://discord.gg/GFfasXkh8E" target="_blank" class="btn discord">
+      BUY THROUGH DISCORD
+    </a>
+  </section>
+
+  <section class="store-section">
+    <h1>HOW TO BUY</h1>
+
+    <div class="store-container">
+      <div class="small-card">
+        <h2>Choose</h2>
+        <p>Select rank or item.</p>
+      </div>
+
+      <div class="small-card">
+        <h2>Ticket</h2>
+        <p>Open Discord ticket.</p>
+      </div>
+
+      <div class="small-card">
+        <h2>Username</h2>
+        <p>Send Minecraft username.</p>
+      </div>
+
+      <div class="small-card">
+        <h2>Payment</h2>
+        <p>Send payment proof.</p>
+      </div>
+
+      <div class="small-card">
+        <h2>Delivery</h2>
+        <p>Receive item in-game.</p>
+      </div>
+    </div>
+  </section>
+  <section class="store-section" id="ranks">
+
+    <h1>RANKS</h1>
+
+    <div class="store-container">
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>VIP+</h2>
+            <h3>₹50</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection 4 Armour Kit</p>
+                <p>₹50,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit vip+</p>
+                <p>Access to 3 Homes</p>
+                <p>VIP+ Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card popular" onclick="togglePerks(this)">
+            <span class="tag">POPULAR</span>
+            <h2>HERO</h2>
+            <h3>₹100</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection VI Armor Kit</p>
+                <p>₹500,000 In Game Money</p>
+                <p>Access to 4 Homes</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit hero</p>
+                <p>1x Spawner Key</p>
+                <p>1x Legend Key</p>
+                <p>1x Eternal Key</p>
+                <p>HERO Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>LORD</h2>
+            <h3>₹200</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection VII Armor Kit</p>
+                <p>₹800,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit lord</p>
+                <p>Access to 5 Homes</p>
+                <p>2x Spawner Keys</p>
+                <p>2x Legend Keys</p>
+                <p>2x Eternal Keys</p>
+                <p>LORD Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>LEGEND</h2>
+            <h3>₹300</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection VIII Armor Kit</p>
+                <p>₹1,000,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit legend</p>
+                <p>Access to 6 Homes</p>
+                <p>3x Spawner Keys</p>
+                <p>3x Legend Keys</p>
+                <p>3x Eternal Keys</p>
+                <p>2x Ultra Keys</p>
+                <p>LEGEND Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>ETERNAL</h2>
+            <h3>₹400</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection IX Armor Kit</p>
+                <p>₹1,500,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit eternal</p>
+                <p>Access to 7 Homes</p>
+                <p>4x Spawner Keys</p>
+                <p>4x Legend Keys</p>
+                <p>4x Eternal Keys</p>
+                <p>3x Ultra Keys</p>
+                <p>1x Love Key</p>
+                <p>ETERNAL Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>ULTRA</h2>
+            <h3>₹500</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection X Armor Kit</p>
+                <p>₹2,000,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit ultra</p>
+                <p>Access to 8 Homes</p>
+                <p>4x Spawner Keys</p>
+                <p>4x Legend Keys</p>
+                <p>4x Eternal Keys</p>
+                <p>4x Ultra Keys</p>
+                <p>2x Love Keys</p>
+                <p>ULTRA Prefix in chat</p>
+            </div>
+        </div>
+
+        <div class="rank-card" onclick="togglePerks(this)">
+            <h2>CUSTOM</h2>
+            <h3>₹1200</h3>
+            <button>VIEW PERKS</button>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')" class="buy-btn">
+    BUY NOW
+</button>
+
+            <div class="perks">
+                <p>Protection XII Armor Kit</p>
+                <p>₹3,000,000 In Game Money</p>
+                <p>Access to /enderchest</p>
+                <p>Access to /craft</p>
+                <p>Access to /anvil</p>
+                <p>Access to /disposal</p>
+                <p>Access to /hat</p>
+                <p>Access to /kit custom</p>
+                <p>Access to 12 Homes</p>
+                <p>6x Spawner Keys</p>
+                <p>6x Legend Keys</p>
+                <p>6x Eternal Keys</p>
+                <p>6x Ultra Keys</p>
+                <p>3x Love Keys</p>
+                <p>CUSTOM Prefix in chat</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<section class="store-section">
+
+    <h1>KEYS</h1>
+
+    <div class="store-container">
+
+        <div class="store-card">
+            <h2>Legend Key</h2>
+
+            <p>
+                Premium Crate Access
+            </p>
+
+            <h3>₹10</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>Eternal Key</h2>
+
+            <p>
+                Rare Rewards & Money
+            </p>
+
+            <h3>₹15</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>Spawner Key</h2>
+
+            <p>
+                Spawner Crate Rewards
+            </p>
+
+            <h3>₹20</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>Ultra Key</h2>
+
+            <p>
+                Ultra Crate Access
+            </p>
+
+            <h3>₹20</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>Love Key</h2>
+
+            <p>
+                  Best Crate Rewards
+            </p>
+
+            <h3>₹50</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+    </div>
+
+</section>
+<section class="store-section" id="money">
+
+    <h1>MONEY</h1>
+
+    <div class="store-container">
+
+        <div class="store-card">
+            <h2>1 Million</h2>
+            <p>In-game economy money</p>
+            <h3>₹40</h3>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">BUY NOW</button>
+        </div>
+
+        <div class="store-card">
+            <h2>2 Million</h2>
+            <p>In-game economy money</p>
+            <h3>₹80</h3>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">BUY NOW</button>
+        </div>
+
+        <div class="store-card">
+            <h2>4 Million</h2>
+            <p>In-game economy money</p>
+            <h3>₹150</h3>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">BUY NOW</button>
+        </div>
+
+        <div class="store-card">
+            <h2>5 Million</h2>
+            <p>In-game economy money</p>
+            <h3>₹170</h3>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">BUY NOW</button>
+        </div>
+
+        <div class="store-card">
+            <h2>10 Million</h2>
+            <p>Best value money pack</p>
+            <h3>₹340</h3>
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">BUY NOW</button>
+        </div>
+
+    </div>
+
+</section>
+<section class="store-section" id="claims">
+
+    <h1>CLAIM BLOCKS</h1>
+
+    <div class="store-container">
+
+        <div class="store-card">
+            <h2>500 Claim Blocks</h2>
+
+            <p>
+                Perfect for small starter bases and farms.
+            </p>
+
+            <h3>₹30</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>1000 Claim Blocks</h2>
+
+            <p>
+                Extra space for larger builds and expansions.
+            </p>
+
+            <h3>₹50</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>1500 Claim Blocks</h2>
+
+            <p>
+                Protect massive farms, storage areas and bases.
+            </p>
+
+            <h3>₹70</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+        <div class="store-card">
+            <h2>2000 Claim Blocks</h2>
+
+            <p>
+                Maximum protection for huge projects and kingdoms.
+            </p>
+
+            <h3>₹100</h3>
+
+            <button onclick="window.open('https://discord.gg/GFfasXkh8E','_blank')">
+                BUY NOW
+            </button>
+        </div>
+
+    </div>
+
+</section>
+<section class="store-section" id="faq">
+
+    <h1>FAQ</h1>
+
+    <div class="store-container">
+
+        <div class="small-card">
+            <h2>Delivery Time</h2>
+            <p>
+                Purchases are usually delivered within
+                5-15 minutes after payment verification.
+            </p>
+        </div>
+
+        <div class="small-card">
+            <h2>Need Help?</h2>
+            <p>
+                Open a Discord ticket and our staff
+                will assist you.
+            </p>
+        </div>
+
+        <div class="small-card">
+            <h2>Refund Policy</h2>
+            <p>
+                All purchases are final.
+                Refunds are not available.
+            </p>
+        </div>
+
+        <div class="small-card">
+            <h2>Payment Issues</h2>
+            <p>
+                If you face any payment issue,
+                contact staff immediately.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<footer class="footer">
+
+    <h2>LOVE MC STORE</h2>
+
+    <p class="footer-desc">
+        Secure purchases • Fast delivery • Friendly support
+    </p>
+
+    <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="rewards.html">Rewards</a>
+        <a href="rules.html">Rules</a>
+        <a href="staff.html">Staff</a>
+    </div>
+
+    <div class="footer-ip">
+        play.lovemc.fun
+    </div>
+
+    <p class="copyright">
+        © 2026 LOVE MC • All Rights Reserved
+    </p>
+
+</footer>
